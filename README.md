@@ -1,7 +1,7 @@
-# 👨‍💻 Ojaswin Aggarwal
+# Ojaswin Aggarwal
 
 <p>
-  <b>Software Engineer</b> specializing in <b>AI/ML Systems</b>, <b>Production Backends</b>, and <b>On-Device AI</b>.
+  <b>Software Engineer</b> specializing in <b>AI/ML Systems</b>, <b>Distributed Backend Architecture</b>, and <b>On-Device AI</b>.
 </p>
 
 <p>
@@ -13,11 +13,11 @@
 
 ---
 
-### ⚡ Quick Overview
+### ⚡ Technical Summary
 
-- 🔭 **Focus**: Architecting end-to-end Machine Learning pipelines, high-throughput REST APIs, and proactive on-device AI solutions.
-- 🧪 **Specialties**: Computer Vision & Medical Diagnostics, HL7 FHIR Interoperability, Hyperparameter Optimization, and Multimodal Semantic Search.
-- 🛠️ **Current Initiatives**: Building multimodal recommendation systems (CLIP + Vector Search) and EDR AI anomaly detection pipelines.
+- 🔭 **Engineering Focus**: Designing distributed transaction-safe backend systems, local SLM/LLM inference engines, and deep learning pipelines from research to production.
+- 🧪 **Specialties**: Distributed Idempotency & Outbox Patterns, Physics-Informed Neural Networks (PINNs), Computer Vision, HL7 FHIR Healthcare Interoperability, and Local RAG.
+- 🛠️ **Active In**: High-concurrency event-driven architectures (Kafka / Redis / Spring Boot), multimodal embeddings (CLIP), and privacy-first on-device AI agents.
 
 ---
 
@@ -25,114 +25,68 @@
 
 <div align="left">
 
-**Languages & Core**  
+**Languages**  
 <a href="#">
-  <img src="https://skillicons.dev/icons?i=python,cpp,kotlin,bash&perline=12" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=python,java,ts,js,cpp,kotlin,bash&perline=12" alt="Languages" />
 </a>
 
 <br/>
 
-**AI / ML & Computer Vision**  
+**AI / ML & Data Science**  
 <a href="#">
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&perline=12" alt="AI & ML" />
 </a>
 <br/>
-<sub>`MLflow` • `Optuna` • `AutoML` • `CLIP` • `XGBoost` • `Pandas` • `NumPy`</sub>
+<sub>`PINNs (Physics-Informed ML)` • `Ollama / Local SLMs` • `CLIP` • `MLflow` • `Optuna` • `AutoML` • `XGBoost` • `Pandas` • `NumPy`</sub>
 
-<br/><br/>
+<br/>
 
-**Backend, Data & Cloud**  
+**Backend, Distributed Systems & Cloud**  
 <a href="#">
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,mysql,postgres,docker,git,githubactions,linux&perline=12" alt="Backend & Infrastructure" />
+  <img src="https://skillicons.dev/icons?i=spring,fastapi,react,tailwind,kafka,redis,postgres,mysql,docker,git,githubactions,linux&perline=12" alt="Backend & Infrastructure" />
 </a>
 <br/>
-<sub>`HL7 FHIR R4` • `Neo4j (Graph DB)` • `JSON-LD / SEO APIs` • `RESTful Architecture`</sub>
+<sub>`Double-Entry Financial Ledgers` • `Transactional Outbox` • `HL7 FHIR R4` • `Neo4j` • `Testcontainers` • `JSON-LD APIs`</sub>
 
 </div>
 
 ---
 
-### 🚀 Selected Projects
+### 🚀 Featured Repositories
+
+#### 🏦 Distributed Systems & Backend Engineering
 
 <table>
   <thead>
     <tr>
       <th width="32%">Project</th>
-      <th width="48%">Summary</th>
+      <th width="48%">Highlights</th>
       <th width="20%">Stack & Links</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <b>🧠 <a href="https://github.com/Ojaswin30/Brain-Tumor-Detector">Brain Tumor Detector</a></b>
+        <b>💳 <a href="https://github.com/Ojaswin30/Idempotent-Payments-Ledger-API">Idempotent Payments Ledger API</a></b>
       </td>
       <td>
-        MRI-based brain tumor classification system using deep convolutional networks with an interactive clinical UI.
+        Production-grade distributed financial transaction ledger guaranteeing strict idempotency, double-entry bookkeeping, and transactional outbox event streaming under high concurrency. Includes React NovaStore & Dev Testing Lab.
       </td>
       <td>
-        <code>PyTorch</code> <code>OpenCV</code> <code>Streamlit</code><br/>
-        <a href="https://github.com/Ojaswin30/Brain-Tumor-Detector">💻 Code</a> · <a href="https://brain-tumor-detector-g7hzfamjbfsr7hvg6osx2m.streamlit.app/">🌐 Live Demo</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>🏥 <a href="https://github.com/Ojaswin30/pdf-to-fhir-pipeline">PDF → FHIR Pipeline</a></b>
-      </td>
-      <td>
-        OCR extraction engine converting unstructured medical PDFs into standardized HL7 FHIR R4 resources for healthcare interoperability.
-      </td>
-      <td>
-        <code>Python</code> <code>OCR</code> <code>HL7 FHIR</code><br/>
-        <a href="https://github.com/Ojaswin30/pdf-to-fhir-pipeline">💻 Code</a>
+        <code>Java 17</code> <code>Spring Boot</code> <code>Kafka</code> <code>Redis</code> <code>PostgreSQL</code> <code>React</code><br/>
+        <a href="https://github.com/Ojaswin30/Idempotent-Payments-Ledger-API">💻 Repository</a>
       </td>
     </tr>
     <tr>
       <td>
-        <b>💳 <a href="https://github.com/Ojaswin30/Idempotent-Payments-Ledger-API">Payments Ledger API</a></b>
+        <b>🗳️ <a href="https://github.com/Ojaswin30/Distributed-Campus-Voting-Platform">Distributed Campus Voting Platform</a></b>
       </td>
       <td>
-        High-reliability financial transaction ledger with strict idempotency guarantees, concurrency safety, and full CI/CD test automation.
+        Secure multi-campus digital election system with atomic multi-club ballot submissions, Google OAuth 2.0 verification, SQLite WAL mode, and real-time live turnout telemetry.
       </td>
       <td>
-        <code>FastAPI</code> <code>PostgreSQL</code> <code>CI/CD</code><br/>
-        <a href="https://github.com/Ojaswin30/Idempotent-Payments-Ledger-API">💻 Code</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>🛍️ <a href="https://github.com/Ojaswin30/Product-Recommender">Product Recommender</a></b>
-      </td>
-      <td>
-        Multimodal search & recommendation engine combining CLIP image-text embeddings with review sentiment re-ranking.
-      </td>
-      <td>
-        <code>CLIP</code> <code>Vector Search</code> <code>FastAPI</code><br/>
-        <a href="https://github.com/Ojaswin30/Product-Recommender">💻 Code</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>🧬 <a href="https://github.com/Ojaswin30/Genomic-and-Clinical-ML-Cancer-Prediction-Model">Genomic & Clinical ML</a></b>
-      </td>
-      <td>
-        Cancer prediction pipeline comparing baseline classifiers to real-world WHO oncology data benchmarks.
-      </td>
-      <td>
-        <code>scikit-learn</code> <code>XGBoost</code> <code>Pandas</code><br/>
-        <a href="https://github.com/Ojaswin30/Genomic-and-Clinical-ML-Cancer-Prediction-Model">💻 Code</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>💡 <a href="https://github.com/Ojaswin30/SmartSuggest">SmartSuggest</a></b>
-      </td>
-      <td>
-        Proactive on-device AI assistant for Android providing low-latency contextual suggestions directly on-device.
-      </td>
-      <td>
-        <code>Kotlin</code> <code>Android</code> <code>On-Device LLM</code><br/>
-        <a href="https://github.com/Ojaswin30/SmartSuggest">💻 Code</a>
+        <code>FastAPI</code> <code>React</code> <code>Vite</code> <code>Tailwind</code> <code>SQLite WAL</code><br/>
+        <a href="https://github.com/Ojaswin30/Distributed-Campus-Voting-Platform">💻 Repository</a>
       </td>
     </tr>
     <tr>
@@ -140,11 +94,135 @@
         <b>🔍 <a href="https://github.com/Ojaswin30/geo-audit-api">GEO Audit API</a></b>
       </td>
       <td>
-        API auditing web content and generating structured JSON-LD schemas optimized for generative AI search indexing.
+        Automated URL audit service generating optimized JSON-LD schema graphs to boost visibility and indexing for generative AI search engines.
       </td>
       <td>
-        <code>FastAPI</code> <code>LLM</code> <code>JSON-LD</code><br/>
-        <a href="https://github.com/Ojaswin30/geo-audit-api">💻 Code</a>
+        <code>Python</code> <code>FastAPI</code> <code>LLMs</code> <code>JSON-LD</code><br/>
+        <a href="https://github.com/Ojaswin30/geo-audit-api">💻 Repository</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 🤖 AI, LLMs & Intelligent Agents
+
+<table>
+  <thead>
+    <tr>
+      <th width="32%">Project</th>
+      <th width="48%">Highlights</th>
+      <th width="20%">Stack & Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>🎯 <a href="https://github.com/Ojaswin30/AI-Resume-Intelligence-System">AI Resume Intelligence System</a></b>
+      </td>
+      <td>
+        Privacy-first, local SLM-powered resume evaluation engine separating deterministic mathematical scoring (semantic evidence retrieval) from generative gap analysis and anti-hallucination guardrails.
+      </td>
+      <td>
+        <code>Python</code> <code>FastAPI</code> <code>Streamlit</code> <code>Local SLM</code><br/>
+        <a href="https://github.com/Ojaswin30/AI-Resume-Intelligence-System">💻 Repository</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🎓 <a href="https://github.com/Ojaswin30/Local-AI-Study-Companion">Local AI Study Companion</a></b>
+      </td>
+      <td>
+        Offline-first, 100% private AI study companion powered by local quantized models (Ollama/Qwen/Llama), grounded RAG note retrieval, 3D Leitner flashcards, and AI podcast generation.
+      </td>
+      <td>
+        <code>React</code> <code>FastAPI</code> <code>Ollama</code> <code>Tailwind</code> <code>RAG</code><br/>
+        <a href="https://github.com/Ojaswin30/Local-AI-Study-Companion">💻 Repository</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>💡 <a href="https://github.com/Ojaswin30/SmartSuggest">SmartSuggest</a></b>
+      </td>
+      <td>
+        Proactive on-device AI assistant engineered for Android that monitors user context in real time to deliver latency-free suggestions directly on-device.
+      </td>
+      <td>
+        <code>Kotlin</code> <code>Android</code> <code>On-Device LLM</code><br/>
+        <a href="https://github.com/Ojaswin30/SmartSuggest">💻 Repository</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🛍️ <a href="https://github.com/Ojaswin30/Product-Recommender">Product Recommender</a></b>
+      </td>
+      <td>
+        Multimodal semantic search & recommendation engine combining CLIP embeddings (image + text queries) with review sentiment re-ranking.
+      </td>
+      <td>
+        <code>Python</code> <code>CLIP</code> <code>FastAPI</code> <code>Vector Search</code><br/>
+        <a href="https://github.com/Ojaswin30/Product-Recommender">💻 Repository</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 🔬 Scientific ML, Healthcare & Security
+
+<table>
+  <thead>
+    <tr>
+      <th width="32%">Project</th>
+      <th width="48%">Highlights</th>
+      <th width="20%">Stack & Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>🪐 <a href="https://github.com/Ojaswin30/exoplanet-pinn">Exoplanet PINN</a></b>
+      </td>
+      <td>
+        Physics-Informed Neural Networks (PINN) for modeling Kepler/TESS exoplanet transit light curves by embedding orbital transit physics directly into the neural loss function.
+      </td>
+      <td>
+        <code>PyTorch</code> <code>PINNs</code> <code>SciPy</code> <code>Kepler/TESS Data</code><br/>
+        <a href="https://github.com/Ojaswin30/exoplanet-pinn">💻 Repository</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🧠 <a href="https://github.com/Ojaswin30/Brain-Tumor-Detector">Brain Tumor Detector</a></b>
+      </td>
+      <td>
+        High-accuracy MRI-based brain tumor classification system using deep convolutional neural networks with interactive diagnostic visualization.
+      </td>
+      <td>
+        <code>PyTorch</code> <code>CNN</code> <code>OpenCV</code> <code>Streamlit</code><br/>
+        <a href="https://github.com/Ojaswin30/Brain-Tumor-Detector">💻 Repository</a> · <a href="https://brain-tumor-detector-g7hzfamjbfsr7hvg6osx2m.streamlit.app/">🌐 Live Demo</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🏥 <a href="https://github.com/Ojaswin30/pdf-to-fhir-pipeline">PDF → FHIR Pipeline</a></b>
+      </td>
+      <td>
+        OCR extraction engine converting unstructured clinical PDFs into structured HL7 FHIR R4 interoperability resources for healthcare systems.
+      </td>
+      <td>
+        <code>Python</code> <code>OCR</code> <code>HL7 FHIR</code> <code>FastAPI</code><br/>
+        <a href="https://github.com/Ojaswin30/pdf-to-fhir-pipeline">💻 Repository</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>🧬 <a href="https://github.com/Ojaswin30/Genomic-and-Clinical-ML-Cancer-Prediction-Model">Genomic & Clinical ML</a></b>
+      </td>
+      <td>
+        End-to-end oncology risk & prediction pipeline progressing from Kaggle baselines to WHO real-world clinical datasets.
+      </td>
+      <td>
+        <code>scikit-learn</code> <code>XGBoost</code> <code>Pandas</code><br/>
+        <a href="https://github.com/Ojaswin30/Genomic-and-Clinical-ML-Cancer-Prediction-Model">💻 Repository</a>
       </td>
     </tr>
     <tr>
@@ -152,11 +230,11 @@
         <b>🛡️ <a href="https://github.com/Ojaswin30/Malimg-Classifier-Benchmark">Malware Classifier Benchmark</a></b>
       </td>
       <td>
-        Benchmarking framework comparing CNNs vs AutoML vs Optuna hyperparameter tuning on malware binary visualization images.
+        Systematic benchmarking framework comparing custom CNNs against AutoML baselines and Optuna hyperparameter optimization on malware binary images.
       </td>
       <td>
         <code>PyTorch</code> <code>AutoML</code> <code>Optuna</code><br/>
-        <a href="https://github.com/Ojaswin30/Malimg-Classifier-Benchmark">💻 Code</a>
+        <a href="https://github.com/Ojaswin30/Malimg-Classifier-Benchmark">💻 Repository</a>
       </td>
     </tr>
   </tbody>
@@ -164,7 +242,6 @@
 
 ---
 
-### 
 <div align="center">
-  <sub>Built with care • Always open to interesting AI/ML & Backend engineering discussions</sub>
+  <sub>Built with care • Always open to interesting AI/ML & Distributed Systems engineering discussions</sub>
 </div>

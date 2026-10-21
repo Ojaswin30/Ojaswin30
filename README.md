@@ -245,9 +245,17 @@
 ### 📈 Most Viewed Repositories (Last 14 Days)
 
 <!-- START_TOP_REPOS -->
+
 | Rank | Repository | 14-Day Views | Unique Visitors | Language | Highlights |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| 🔄 | *Traffic rankings sync automatically via GitHub Actions* | — | — | — | Top 5 most viewed repositories will dynamically appear here |
+| 🥇 | **[SmartSuggest](https://github.com/Ojaswin30/SmartSuggest)** | `54` | `1` | <code>Java</code> | A next-generation AI agent that lives on-device—always available, context-aware, and pr... |
+| 🥈 | **[exoplanet-pinn](https://github.com/Ojaswin30/exoplanet-pinn)** | `8` | `2` | <code>Jupyter Notebook</code> | Physics-informed ML for exoplanet transit light curves (Kepler/TESS) |
+| 🥉 | **[AI-Resume-Intelligence-System](https://github.com/Ojaswin30/AI-Resume-Intelligence-System)** | `6` | `2` | <code>Python</code> | No description provided. |
+| 4 | **[hospital-streamlit-dashboard](https://github.com/Ojaswin30/hospital-streamlit-dashboard)** | `6` | `1` | <code>Python</code> | Streamlit dashboard for visualizing the Agent Hospital Simulacrum. Tracks patient journ... |
+| 5 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `4` | `4` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data fro... |
+
+<div align="right"><sub>*Auto-updated daily with live 14-day traffic from GitHub API*</sub></div>
+
 <!-- END_TOP_REPOS -->
 
 ---

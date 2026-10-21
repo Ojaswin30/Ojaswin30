@@ -242,6 +242,16 @@
 
 ---
 
+### 📈 Most Viewed Repositories (Last 14 Days)
+
+<!-- START_TOP_REPOS -->
+| Rank | Repository | 14-Day Views | Unique Visitors | Language | Highlights |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| 🔄 | *Traffic rankings sync automatically via GitHub Actions* | — | — | — | Top 5 most viewed repositories will dynamically appear here |
+<!-- END_TOP_REPOS -->
+
+---
+
 <div align="center">
   <sub>Built with care • Always open to interesting AI/ML & Distributed Systems engineering discussions</sub>
 </div>

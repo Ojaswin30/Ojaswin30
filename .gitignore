@@ -1,0 +1,6 @@
+# Private local analytics reports
+PRIVATE_INSIGHTS.md
+
+# Python cache
+__pycache__/
+*.pyc

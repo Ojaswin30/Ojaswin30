@@ -246,15 +246,15 @@
 
 <!-- START_TOP_REPOS -->
 
-| Rank | Repository | 14-Day Views | Unique Visitors | Language | Highlights |
-| :---: | :--- | :---: | :---: | :---: | :--- |
-| 🥇 | **[SmartSuggest](https://github.com/Ojaswin30/SmartSuggest)** | `54` | `1` | <code>Java</code> | A next-generation AI agent that lives on-device—always available, context-aware, and pr... |
-| 🥈 | **[exoplanet-pinn](https://github.com/Ojaswin30/exoplanet-pinn)** | `8` | `2` | <code>Jupyter Notebook</code> | Physics-informed ML for exoplanet transit light curves (Kepler/TESS) |
-| 🥉 | **[AI-Resume-Intelligence-System](https://github.com/Ojaswin30/AI-Resume-Intelligence-System)** | `6` | `2` | <code>Python</code> | No description provided. |
-| 4 | **[hospital-streamlit-dashboard](https://github.com/Ojaswin30/hospital-streamlit-dashboard)** | `6` | `1` | <code>Python</code> | Streamlit dashboard for visualizing the Agent Hospital Simulacrum. Tracks patient journ... |
-| 5 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `4` | `4` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data fro... |
+| Repository | Total Views | Views (Last 14 Days) |
+| :--- | :---: | :---: |
+| **[SmartSuggest](https://github.com/Ojaswin30/SmartSuggest)** | `54` | `54` |
+| **[exoplanet-pinn](https://github.com/Ojaswin30/exoplanet-pinn)** | `8` | `8` |
+| **[hospital-streamlit-dashboard](https://github.com/Ojaswin30/hospital-streamlit-dashboard)** | `6` | `6` |
+| **[AI-Resume-Intelligence-System](https://github.com/Ojaswin30/AI-Resume-Intelligence-System)** | `6` | `6` |
+| **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `4` | `4` |
 
-<div align="right"><sub>*Auto-updated daily with live 14-day traffic from GitHub API*</sub></div>
+<div align="right"><sub>*Auto-updated daily via GitHub Actions*</sub></div>
 
 <!-- END_TOP_REPOS -->
 

@@ -2,9 +2,7 @@
 """
 Dynamically updates the 'Most Viewed Repositories' section in README.md
 using GitHub's Traffic API. Tracks all-time cumulative views across runs
-and shows:
-- Total Views
-- Views (Last 14 Days)
+and displays a wide, beautifully formatted spotlight table.
 """
 
 import json
@@ -17,6 +15,7 @@ import urllib.error
 
 START_MARKER = "<!-- START_TOP_REPOS -->"
 END_MARKER = "<!-- END_TOP_REPOS -->"
+MEDALS = ["🥇", "🥈", "🥉", "4", "5"]
 
 def get_token():
     token = os.environ.get("TRAFFIC_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -128,6 +127,23 @@ def get_top_viewed_repositories(token, username, history_path, limit=5):
         else:
             total_views = views_14d
 
+        description = repo.get("description")
+        if not description or description.strip() == "No description provided.":
+            if "Resume" in name:
+                description = "Privacy-first local SLM resume evaluation and evidence retrieval engine."
+            elif "hospital" in name:
+                description = "Streamlit dashboard for Agent Hospital simulation and clinical telemetry."
+            elif "fhir" in name:
+                description = "OCR extraction transforming unstructured clinical PDFs into HL7 FHIR R4."
+            else:
+                description = "Engineering project focusing on distributed systems and AI architecture."
+
+        description = description.replace("|", "\\|").strip()
+        if len(description) > 95:
+            description = description[:92] + "..."
+
+        language = repo.get("language") or "General"
+
         repo_stats.append({
             "name": name,
             "html_url": repo.get("html_url", f"https://github.com/{username}/{name}"),
@@ -135,6 +151,8 @@ def get_top_viewed_repositories(token, username, history_path, limit=5):
             "total_views": total_views,
             "uniques_14d": uniques_14d,
             "stars": repo.get("stargazers_count", 0),
+            "language": language,
+            "description": description
         })
 
     save_traffic_history(history, history_path)
@@ -149,18 +167,22 @@ def format_markdown_table(top_repos):
 
     table_lines = [
         "",
-        "| Repository | Total Views | Views (Last 14 Days) |",
-        "| :--- | :---: | :---: |"
+        "| Rank | Repository | 14-Day Views | Unique Visitors | Stars | Tech Stack | Highlights |",
+        "| :---: | :--- | :---: | :---: | :---: | :---: | :--- |"
     ]
 
-    for repo in top_repos:
+    for i, repo in enumerate(top_repos):
+        rank = MEDALS[i] if i < len(MEDALS) else str(i + 1)
         name_md = f"**[{repo['name']}]({repo['html_url']})**"
-        total_views_md = f"`{repo['total_views']}`"
         views_14d_md = f"`{repo['views_14d']}`"
-        table_lines.append(f"| {name_md} | {total_views_md} | {views_14d_md} |")
+        uniques_md = f"`{repo['uniques_14d']}`"
+        stars_md = f"⭐ `{repo['stars']}`"
+        lang_md = f"<code>{repo['language']}</code>"
+        desc_md = repo["description"]
+        table_lines.append(f"| {rank} | {name_md} | {views_14d_md} | {uniques_md} | {stars_md} | {lang_md} | {desc_md} |")
 
     table_lines.append("")
-    table_lines.append("<div align=\"right\"><sub>*Auto-updated daily via GitHub Actions*</sub></div>")
+    table_lines.append("<div align=\"right\"><sub>*Auto-updated daily via GitHub Actions • Powered by GitHub Traffic API*</sub></div>")
     table_lines.append("")
     return "\n".join(table_lines)
 

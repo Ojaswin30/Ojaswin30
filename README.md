@@ -252,7 +252,7 @@
 | 🥈 | **[whatsnext-salesforce-crm](https://github.com/Ojaswin30/whatsnext-salesforce-crm)** | `11` | `1` | ⭐ `0` | <code>Apex</code> | Salesforce CRM project to automate order management, stock tracking, and dealer assignment f... |
 | 🥉 | **[chromeExtension_LeetcodeQuestionAutoUploader](https://github.com/Ojaswin30/chromeExtension_LeetcodeQuestionAutoUploader)** | `8` | `1` | ⭐ `0` | <code>JavaScript</code> | Uploads completed questions to GiTHUB and gets AI feedback |
 | 4 | **[Leetcode](https://github.com/Ojaswin30/Leetcode)** | `6` | `1` | ⭐ `0` | <code>C++</code> | This repository will contain all the Leetcode questions solved by me with all explanation |
-| 5 | **[hospital-streamlit-dashboard](https://github.com/Ojaswin30/hospital-streamlit-dashboard)** | `6` | `1` | ⭐ `0` | <code>Python</code> | Streamlit dashboard for visualizing the Agent Hospital Simulacrum. Tracks patient journeys, ... |
+| 5 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `5` | `3` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
 
 <div align="right"><sub>*Auto-updated daily via GitHub Actions • Powered by GitHub Traffic API*</sub></div>
 

@@ -250,9 +250,9 @@
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | 🥇 | **[Voice-mock-interview-coach](https://github.com/Ojaswin30/Voice-mock-interview-coach)** | `33` | `1` | ⭐ `0` | <code>Python</code> | Engineering project focusing on distributed systems and AI architecture. |
 | 🥈 | **[whatsnext-salesforce-crm](https://github.com/Ojaswin30/whatsnext-salesforce-crm)** | `11` | `1` | ⭐ `0` | <code>Apex</code> | Salesforce CRM project to automate order management, stock tracking, and dealer assignment f... |
-| 🥉 | **[chromeExtension_LeetcodeQuestionAutoUploader](https://github.com/Ojaswin30/chromeExtension_LeetcodeQuestionAutoUploader)** | `8` | `1` | ⭐ `0` | <code>JavaScript</code> | Uploads completed questions to GiTHUB and gets AI feedback |
-| 4 | **[Leetcode](https://github.com/Ojaswin30/Leetcode)** | `6` | `1` | ⭐ `0` | <code>C++</code> | This repository will contain all the Leetcode questions solved by me with all explanation |
-| 5 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `5` | `3` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
+| 🥉 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `5` | `3` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
+| 4 | **[geo-audit-api](https://github.com/Ojaswin30/geo-audit-api)** | `4` | `1` | ⭐ `0` | <code>TypeScript</code> | Beginner-friendly prototype that analyzes a webpage URL, extracts key metadata, and generate... |
+| 5 | **[Leetcode](https://github.com/Ojaswin30/Leetcode)** | `3` | `1` | ⭐ `0` | <code>C++</code> | This repository will contain all the Leetcode questions solved by me with all explanation |
 
 <div align="right"><sub>*Auto-updated daily via GitHub Actions • Powered by GitHub Traffic API*</sub></div>
 

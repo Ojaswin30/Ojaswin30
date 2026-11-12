@@ -250,9 +250,9 @@
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | 🥇 | **[whatsnext-salesforce-crm](https://github.com/Ojaswin30/whatsnext-salesforce-crm)** | `24` | `1` | ⭐ `0` | <code>Apex</code> | Salesforce CRM project to automate order management, stock tracking, and dealer assignment f... |
 | 🥈 | **[Voice-mock-interview-coach](https://github.com/Ojaswin30/Voice-mock-interview-coach)** | `15` | `1` | ⭐ `0` | <code>Python</code> | Engineering project focusing on distributed systems and AI architecture. |
-| 🥉 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `4` | `3` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
-| 4 | **[Idempotent-Payments-Ledger-API](https://github.com/Ojaswin30/Idempotent-Payments-Ledger-API)** | `4` | `1` | ⭐ `0` | <code>Java</code> | Engineering project focusing on distributed systems and AI architecture. |
-| 5 | **[Leetcode](https://github.com/Ojaswin30/Leetcode)** | `2` | `1` | ⭐ `0` | <code>C++</code> | This repository will contain all the Leetcode questions solved by me with all explanation |
+| 🥉 | **[Ghostnet](https://github.com/Ojaswin30/Ghostnet)** | `6` | `1` | ⭐ `0` | <code>TypeScript</code> | Engineering project focusing on distributed systems and AI architecture. |
+| 4 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `4` | `3` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
+| 5 | **[Idempotent-Payments-Ledger-API](https://github.com/Ojaswin30/Idempotent-Payments-Ledger-API)** | `4` | `1` | ⭐ `0` | <code>Java</code> | Engineering project focusing on distributed systems and AI architecture. |
 
 <div align="right"><sub>*Auto-updated daily via GitHub Actions • Powered by GitHub Traffic API*</sub></div>
 

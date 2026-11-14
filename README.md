@@ -248,10 +248,10 @@
 
 | Rank | Repository | 14-Day Views | Unique Visitors | Stars | Tech Stack | Highlights |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| 🥇 | **[whatsnext-salesforce-crm](https://github.com/Ojaswin30/whatsnext-salesforce-crm)** | `24` | `1` | ⭐ `0` | <code>Apex</code> | Salesforce CRM project to automate order management, stock tracking, and dealer assignment f... |
-| 🥈 | **[Voice-mock-interview-coach](https://github.com/Ojaswin30/Voice-mock-interview-coach)** | `15` | `1` | ⭐ `0` | <code>Python</code> | Engineering project focusing on distributed systems and AI architecture. |
-| 🥉 | **[Ghostnet](https://github.com/Ojaswin30/Ghostnet)** | `12` | `1` | ⭐ `0` | <code>TypeScript</code> | Engineering project focusing on distributed systems and AI architecture. |
-| 4 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `8` | `4` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
+| 🥇 | **[whatsnext-salesforce-crm](https://github.com/Ojaswin30/whatsnext-salesforce-crm)** | `25` | `1` | ⭐ `0` | <code>Apex</code> | Salesforce CRM project to automate order management, stock tracking, and dealer assignment f... |
+| 🥈 | **[Ghostnet](https://github.com/Ojaswin30/Ghostnet)** | `13` | `1` | ⭐ `0` | <code>TypeScript</code> | Engineering project focusing on distributed systems and AI architecture. |
+| 🥉 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `10` | `5` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
+| 4 | **[Voice-mock-interview-coach](https://github.com/Ojaswin30/Voice-mock-interview-coach)** | `9` | `1` | ⭐ `0` | <code>Python</code> | Engineering project focusing on distributed systems and AI architecture. |
 | 5 | **[Idempotent-Payments-Ledger-API](https://github.com/Ojaswin30/Idempotent-Payments-Ledger-API)** | `4` | `1` | ⭐ `0` | <code>Java</code> | Engineering project focusing on distributed systems and AI architecture. |
 
 <div align="right"><sub>*Auto-updated daily via GitHub Actions • Powered by GitHub Traffic API*</sub></div>

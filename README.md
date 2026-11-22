@@ -249,10 +249,10 @@
 | Rank | Repository | 14-Day Views | Unique Visitors | Stars | Tech Stack | Highlights |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | 🥇 | **[Ghostnet](https://github.com/Ojaswin30/Ghostnet)** | `42` | `2` | ⭐ `0` | <code>TypeScript</code> | Engineering project focusing on distributed systems and AI architecture. |
-| 🥈 | **[whatsnext-salesforce-crm](https://github.com/Ojaswin30/whatsnext-salesforce-crm)** | `14` | `1` | ⭐ `0` | <code>Apex</code> | Salesforce CRM project to automate order management, stock tracking, and dealer assignment f... |
-| 🥉 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `9` | `5` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
-| 4 | **[Leetcode](https://github.com/Ojaswin30/Leetcode)** | `6` | `1` | ⭐ `0` | <code>C++</code> | This repository will contain all the Leetcode questions solved by me with all explanation |
-| 5 | **[Voice-mock-interview-coach](https://github.com/Ojaswin30/Voice-mock-interview-coach)** | `5` | `1` | ⭐ `0` | <code>Python</code> | Engineering project focusing on distributed systems and AI architecture. |
+| 🥈 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `8` | `4` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
+| 🥉 | **[Leetcode](https://github.com/Ojaswin30/Leetcode)** | `6` | `1` | ⭐ `0` | <code>C++</code> | This repository will contain all the Leetcode questions solved by me with all explanation |
+| 4 | **[exoplanet-pinn](https://github.com/Ojaswin30/exoplanet-pinn)** | `2` | `1` | ⭐ `0` | <code>Jupyter Notebook</code> | Physics-informed ML for exoplanet transit light curves (Kepler/TESS) |
+| 5 | **[whatsnext-salesforce-crm](https://github.com/Ojaswin30/whatsnext-salesforce-crm)** | `1` | `1` | ⭐ `0` | <code>Apex</code> | Salesforce CRM project to automate order management, stock tracking, and dealer assignment f... |
 
 <div align="right"><sub>*Auto-updated daily via GitHub Actions • Powered by GitHub Traffic API*</sub></div>
 

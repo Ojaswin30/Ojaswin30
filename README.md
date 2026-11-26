@@ -248,7 +248,7 @@
 
 | Rank | Repository | 14-Day Views | Unique Visitors | Stars | Tech Stack | Highlights |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| 🥇 | **[Ghostnet](https://github.com/Ojaswin30/Ghostnet)** | `51` | `2` | ⭐ `0` | <code>TypeScript</code> | Engineering project focusing on distributed systems and AI architecture. |
+| 🥇 | **[Ghostnet](https://github.com/Ojaswin30/Ghostnet)** | `45` | `2` | ⭐ `0` | <code>TypeScript</code> | Engineering project focusing on distributed systems and AI architecture. |
 | 🥈 | **[pdf-to-fhir-pipeline](https://github.com/Ojaswin30/pdf-to-fhir-pipeline)** | `8` | `4` | ⭐ `3` | <code>Python</code> | A pipeline that uses Optical Character Recognition (OCR) to extract structured data from uns... |
 | 🥉 | **[Leetcode](https://github.com/Ojaswin30/Leetcode)** | `6` | `1` | ⭐ `0` | <code>C++</code> | This repository will contain all the Leetcode questions solved by me with all explanation |
 | 4 | **[Distributed-Campus-Voting-Platform](https://github.com/Ojaswin30/Distributed-Campus-Voting-Platform)** | `6` | `1` | ⭐ `0` | <code>JavaScript</code> | Engineering project focusing on distributed systems and AI architecture. |
